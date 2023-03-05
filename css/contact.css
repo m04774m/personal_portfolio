@@ -107,9 +107,7 @@ button{
 }
 
 @media(max-width: 600px){
-  form{
-    margin-top: -3rem;
-  }
+  
   input,textarea{
     width: 70%;
     margin-left: 2.7rem;
