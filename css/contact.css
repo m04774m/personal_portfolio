@@ -1,7 +1,7 @@
 
 body{
-    /* background: url("../img/contact_bg.jpg") repeat center center right/cover ; */
     background-color: #080710;
+
 }
 .background{
    
@@ -127,5 +127,26 @@ button{
     margin: 0 3.5rem;
     margin-top: 30px;
   }
-
+  .background img{
+    display:none;
+  }
+}
+@media(max-height:700px){
+  form{
+    margin-top: 8rem;
+  }
+  .background img{
+    display:none;
+  }
+  input,textarea{
+    width: 60%;
+    margin-left: 5.5rem;
+  }
+  button{
+    margin-left: 8rem;
+   
+  }
+  label{
+    margin-left:5.5rem;
+  }
 }

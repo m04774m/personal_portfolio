@@ -391,7 +391,13 @@ S
     #main-nav li {
       padding: 1rem; }
    #header-home {
-    height:100vh;
+    height:120vh;
+  }
+  .header-content .lead.header-content .title{
+    font-size: .5rem;
+  }
+  .header-content .title{
+    font-size: 3rem !important;
   }
   #header-inner {
     height: 12rem; }
